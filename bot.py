@@ -25,7 +25,7 @@ async def start_message(client, message):
     text += "Developed by [Majid](https://t.me/dev_username) | Admin: [Kirito](https://t.me/dou_di_emperor)"
 
     # Send an image or video with the message
-    media = "animesia_image.jpg"  # Replace with your image or video file
+    media = "https://i.postimg.cc/tgpfdFz8/Cd-WJ5-Jx-NS0i-EKu-IPDy5pd-Q.webp"  # Replace with your image or video file
     await message.reply_photo(media, caption=text, parse_mode="markdown")
 
     # Alternatively, you can send a video using send_video

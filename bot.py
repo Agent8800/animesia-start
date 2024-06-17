@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 API_TOKEN = "7033499587:AAE9ZC3gAetGvISzqFlzY8etuRmTYwCjfP8"
 
 # Create a Pyrogram client
-app = Client("animesia_bot", api_id=API_TOKEN, api_hash="YOUR_API_HASH")
+app = Client("animesia_bot", api_id=API_TOKEN, api_hash="1f20df54dfd91bcee05278d3b01da2c7")
 
 # Define a filter for the start command
 start_filter = filters.command("start")
@@ -27,4 +27,4 @@ async def start_message(client, message):
     # await message.reply_video(media, caption=text, parse_mode="markdown")
 
 # Run the bot
-app.run()￼Enter
+app.run()
